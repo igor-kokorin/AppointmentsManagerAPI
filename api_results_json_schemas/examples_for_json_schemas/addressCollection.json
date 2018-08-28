@@ -1,0 +1,37 @@
+{
+    "totalResultsCount": 10,
+    "currentPageResultsCount": 3,
+    "links": {
+        "previousPage": "",
+        "nextPage": ""
+    },
+    "results": [
+        {
+            "id": "address1",
+            "title": "Название 1",
+            "addressLine": "Красноярск, улица Крупской, 9",
+            "coordinates": {
+                "latitude": 56.020979,
+                "longtitude": 92.775559
+            }
+        },
+        {
+            "id": "address2",
+            "title": "Название 2",
+            "addressLine": "Красноярск, СНТ Победа, улица Бригада № 3, 4",
+            "coordinates": {
+                "latitude": 56.009582,
+                "longtitude": 92.79234
+            }
+        },
+        {
+            "id": "address3",
+            "title": "Название 3",
+            "addressLine": "Красноярск, микрорайон Николаевка, улица Отдыха, 18А",
+            "coordinates": {
+                "latitude": 56.007161,
+                "longtitude": 92.805302
+            }
+        }
+    ]
+}

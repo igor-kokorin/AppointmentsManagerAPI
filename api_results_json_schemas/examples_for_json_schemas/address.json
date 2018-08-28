@@ -1,0 +1,14 @@
+{
+    "links": {
+        "appointments": ""
+    },
+    "result": {
+        "id": "",
+        "title": "Название 1",
+        "addressLine": "Красноярск, улица Крупской, 9",
+        "coordinates": {
+            "latitude": 56.020979,
+            "longtitude": 92.775559
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "links": {
+        "address": "",
+        "contacts": ""
+    },
+    "result": {
+        "id": "appointment1",
+        "addressId": "Красноярск, улица 60 лет Октября, 156/1",
+        "contactIds": [
+            "contact2",
+            "contact5"
+        ],
+        "dateTime": "2018-02-28T07:34:00Z",
+        "title": "Встреча 1",
+        "description": "Описание 1"
+    }
+}

@@ -1,0 +1,2 @@
+export { getGoodRequestExtractorOptions, getGoodIdExtractorOptions, getGoodDocumentExtractorOptions, getGoodPageExtractorOptions, getGoodUserInfoExtractorOptions } from './get-good-options';
+export { PageExtractorTester } from './page-extractor-tester';

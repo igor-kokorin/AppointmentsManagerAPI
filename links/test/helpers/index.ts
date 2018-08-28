@@ -1,0 +1,1 @@
+export { getGoodLinksOptions, getGoodPageLinksOptions, getGoodRelationsLinksOptions } from './get-good-options';

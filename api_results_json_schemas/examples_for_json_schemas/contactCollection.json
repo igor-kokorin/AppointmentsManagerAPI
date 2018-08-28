@@ -1,0 +1,60 @@
+{
+    "totalResultsCount": 5,
+    "currentPageResultsCount": 5,
+    "links": {
+        "previousPage": "",
+        "nextPage": ""
+    },
+    "results": [
+        {
+            "id": "",
+            "firstName": "Гомер",
+            "lastName": "Симпсон",
+            "middleName": "Джей",
+            "company": "Атомная станция",
+            "phoneNumbers": [
+                "+7(999)999-99-01",
+                "+7(999)999-99-02"
+            ]
+        },
+        {
+            "id": "",
+            "firstName": "Лиза",
+            "lastName": "Симпсон",
+            "middleName": "",
+            "company": "Школа",
+            "phoneNumbers": [
+                "+7(999)999-99-02"
+            ]
+        },
+        {
+            "id": "",
+            "firstName": "Барт",
+            "lastName": "Симпсон",
+            "middleName": "",
+            "company": "Школа",
+            "phoneNumbers": [
+                "+7(999)999-99-01"
+            ]
+        },
+        {
+            "id": "",
+            "firstName": "Мардж",
+            "lastName": "Симпсон",
+            "middleName": "",
+            "company": "Дом",
+            "phoneNumbers": [
+                "+7(999)999-99-99",
+                "+7(999)999-45-01"
+            ]
+        },
+        {
+            "id": "",
+            "firstName": "Мэгги",
+            "lastName": "Симпсон",
+            "middleName": "",
+            "company": "Детский сад",
+            "phoneNumbers": []
+        }
+    ]
+}

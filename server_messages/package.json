@@ -1,0 +1,11 @@
+{
+  "name": "server_messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register"
+  },
+  "author": "Igor Kokorin",
+  "license": "ISC"
+}

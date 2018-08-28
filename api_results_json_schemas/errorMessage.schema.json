@@ -1,0 +1,27 @@
+{
+    "$id": "http://igor-kokorin.com/appointment-manager.json",
+    "type": "object",
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "errorsCount": {
+            "type": "integer"
+        },
+        "errors": {
+            "patternProperties": {
+                "^[a-zA-Z]+[a-zA-Z0-9]*$": {
+                    "type": "object",
+                    "patternProperties": {
+                        "^[a-zA-Z]+[a-zA-Z0-9]*$": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "minItems": 1
+        }
+    },
+    "required": [
+        "errorsCount"
+    ]
+}

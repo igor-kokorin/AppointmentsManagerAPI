@@ -1,0 +1,63 @@
+{
+    "totalResultsCount": 5,
+    "currentPageResultsCount": 5,
+    "links": {
+        "previousPage": "",
+        "nextPage": ""
+    },
+    "results": [
+        {
+            "id": "appointment1",
+            "addressId": "Красноярск, улица 60 лет Октября, 156/1",
+            "contactIds": [
+                "contact2",
+                "contact5"
+            ],
+            "dateTime": "2018-02-28T07:34:00Z",
+            "title": "Встреча 1",
+            "description": "Описание 1"
+        },
+        {
+            "id": "appointment2",
+            "addressId": "Красноярск, микрорайон Николаевка, улица Отдыха, 18А",
+            "contactIds": [
+                "contact5"
+            ],
+            "dateTime": "2018-02-28T09:03:00Z",
+            "title": "Встреча 2",
+            "description": "Описание 2"
+        },
+        {
+            "id": "appointment3",
+            "addressId": "Красноярск, улица Карла Маркса, 102П",
+            "contactIds": [
+                "contact3",
+                "contact5"
+            ],
+            "dateTime": "2018-03-01T05:10:00Z",
+            "title": "Встреча 3",
+            "description": "Описание 3"
+        },
+        {
+            "id": "appointment4",
+            "addressId": "Красноярск, улица Крупской, 9",
+            "contactIds": [
+                "contact4"
+            ],
+            "dateTime": "2018-03-05T07:14:00Z",
+            "title": "Встреча 4",
+            "description": "Описание 4"
+        },
+        {
+            "id": "appointment5",
+            "addressId": "Красноярск, СНТ Победа, улица Бригада № 3, 4",
+            "contactIds": [
+                "contact4",
+                "contact3"
+            ],
+            "dateTime": "2018-03-06T03:34:00Z",
+            "title": "Встреча 5",
+            "description": "Описание 5"
+        }
+    ]
+}

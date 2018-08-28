@@ -1,0 +1,14 @@
+{
+  "name": "queries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register"
+  },
+  "author": "Igor Kokorin",
+  "license": "ISC"
+}

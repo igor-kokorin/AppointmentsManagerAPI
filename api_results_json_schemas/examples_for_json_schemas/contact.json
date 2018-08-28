@@ -1,0 +1,16 @@
+{
+    "links": {
+        "appointments": ""
+    },
+    "result": {
+        "id": "",
+        "firstName": "Гомер",
+        "lastName": "Симпсон",
+        "middleName": "Джей",
+        "company": "Атомная станция",
+        "phoneNumbers": [
+            "+7(999)999-99-01",
+            "+7(999)999-99-02"
+        ]
+    }
+}

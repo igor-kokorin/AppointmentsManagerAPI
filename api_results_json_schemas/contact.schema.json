@@ -1,0 +1,67 @@
+{
+    "$id": "http://igor-kokorin.com/appointment-manager.json",
+    "type": "object",
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "links": {
+            "$id": "/properties/links",
+            "type": "object",
+            "properties": {
+                "appointments": {
+                    "$id": "/properties/links/properties/appointments",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "appointments"
+            ]
+        },
+        "result": {
+            "$id": "/properties/result",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "$id": "/properties/result/properties/id",
+                    "type": "string"
+                },
+                "firstName": {
+                    "$id": "/properties/result/properties/firstName",
+                    "type": "string"
+                },
+                "lastName": {
+                    "$id": "/properties/result/properties/lastName",
+                    "type": "string"
+                },
+                "middleName": {
+                    "$id": "/properties/result/properties/middleName",
+                    "type": "string"
+                },
+                "company": {
+                    "$id": "/properties/result/properties/company",
+                    "type": "string"
+                },
+                "phoneNumbers": {
+                    "$id": "/properties/result/properties/phoneNumbers",
+                    "type": "array",
+                    "items": {
+                        "$id": "/properties/result/properties/phoneNumbers/items",
+                        "type": "string"
+                    }
+                }
+            },
+            "required": [
+                "id",
+                "firstName",
+                "lastName",
+                "middleName",
+                "company",
+                "phoneNumbers"
+            ]
+        }
+    },
+    "required": [
+        "links",
+        "result"
+    ]
+}

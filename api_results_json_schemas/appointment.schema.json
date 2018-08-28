@@ -1,0 +1,72 @@
+{
+    "$id": "http://igor-kokorin.com/appointment-manager.json",
+    "type": "object",
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "links": {
+            "$id": "/properties/links",
+            "type": "object",
+            "properties": {
+                "address": {
+                    "$id": "/properties/links/properties/address",
+                    "type": "string"
+                },
+                "contacts": {
+                    "$id": "/properties/links/properties/contacts",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "address",
+                "contacts"
+            ]
+        },
+        "result": {
+            "$id": "/properties/result",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "$id": "/properties/result/properties/id",
+                    "type": "string"
+                },
+                "addressId": {
+                    "$id": "/properties/result/properties/addressId",
+                    "type": "string"
+                },
+                "contactIds": {
+                    "$id": "/properties/result/properties/contactIds",
+                    "type": "array",
+                    "items": {
+                        "$id": "/properties/result/properties/contactIds/items",
+                        "type": "string"
+                    }
+                },
+                "dateTime": {
+                    "$id": "/properties/result/properties/dateTime",
+                    "type": "string"
+                },
+                "title": {
+                    "$id": "/properties/result/properties/title",
+                    "type": "string"
+                },
+                "description": {
+                    "$id": "/properties/result/properties/description",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "addressId",
+                "contactIds",
+                "dateTime",
+                "title",
+                "description"
+            ]
+        }
+    },
+    "required": [
+        "links",
+        "result"
+    ]
+}
